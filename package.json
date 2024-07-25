@@ -1,6 +1,6 @@
 {
   "name": "@empjourney/maplist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "repository": "https://github.com/deepakaggarwal7/maplist.git",
   "author": "Deepak Aggarwal <deepakaggarwal7@gmail.com>",
