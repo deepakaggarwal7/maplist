@@ -1,10 +1,16 @@
 {
-  "name": "maplist",
+  "name": "@empjourney/maplist",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/deepakaggarwal7/maplist.git",
   "author": "Deepak Aggarwal <deepakaggarwal7@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build"
+  },
   "devDependencies": {
     "@types/node": "^20.14.12",
     "typescript": "^5.5.4"
