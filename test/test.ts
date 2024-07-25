@@ -1,6 +1,5 @@
-import {MapList} from '../dist'
+import {MapList, RecordUtil} from '../dist'
 import assert  from 'assert'
-
 
 interface IPost{
     title: string,
