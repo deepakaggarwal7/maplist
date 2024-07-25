@@ -2,6 +2,7 @@
   "name": "@empjourney/maplist",
   "version": "1.0.1",
   "main": "dist/index.js",
+  "types": "./dist",
   "repository": "https://github.com/deepakaggarwal7/maplist.git",
   "author": "Deepak Aggarwal <deepakaggarwal7@gmail.com>",
   "license": "MIT",
