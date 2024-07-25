@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npx tsc"
   },
   "devDependencies": {
     "@types/node": "^20.14.12",
