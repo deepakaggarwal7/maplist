@@ -31,6 +31,15 @@ export class MapList<K extends string | number, V> extends Map<K, V> {
       }
       return results;
     }
+
+    some(predicate: (value: V) => boolean): boolean {
+      for (const value of this.values()) {
+        if (predicate(value)) {
+          return true;
+        }
+      }
+      return false;
+    }
   
     map<T>(callback: (value: V) => T): T[] {
       const results: T[] = [];
